@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #17183B;
+    color: #ededed;
+}
+
+.top {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+}
+
+.my {
+    color: white;
+}
+
+.journey{
+    display: flex;
+    color: #FFB49A; 
+}
+
+.education{
+    display: grid;
+    border: 5px;
+    background-color: red;
+}
+
+.years{
+    color: #7B7554;
+    display: flex;
+    justify-content: left;
+    top:50%;
+}
+.h{
+    width: 100%;
+    height: auto;
+    display: flex;
+    transform: scale(0.5);
+    position:absolute;
+    justify-items: right;
+    align-content: right;
+    padding: 0 19%;
+}
